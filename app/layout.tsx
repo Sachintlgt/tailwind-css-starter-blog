@@ -21,8 +21,8 @@ const space_grotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
   title: {
-    default: siteMetadata.title,
-    template: `%s | ${siteMetadata.title}`,
+    default: 'zenkinns',
+    template: `%s | zenkinns`,
   },
   description: siteMetadata.description,
   openGraph: {
